@@ -1,23 +1,67 @@
-body {
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } */
+
+  body {
 /* Цвет основного текста color: #212121; */
 /* Цвет вторичного текста color: #757575;*/
-/* Цвет текста акцент color: #2196F3;*/
-/* цвет текста белый color: #FFFFFF;*/
+/* Цвет акцент color: #2196F3;*/
+/* цвет белый color: #FFFFFF;*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
 }
-
 ul {
     list-style: none;
 }
-
-.link {
-    color: black;
-    font-size: 30px;
+a {
+    text-decoration: none;
 }
-.link:hover,
-.link:focus {
+
+/* Header */
+.page-header {
+    color: #212121;
+}
+.logo {
+    color: #2196F3;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo-top {
+    color: #212121;
+}
+
+/* Site-nav */
+
+.site-nav {
+    /* color: #212121; */
+}
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: rgb(255, 0, 0);
     font-style: italic;
 }
-.link:active {
+.site-nav .link:active {
     color: teal;
 }
+/* Footer */
+.page-footer {
+    color: #FFFFFF;
+    background: #2F303A;    
+}
+.logo-bottom {
+    color: #FFFFFF;
+}
+/* .address {
+    text-decoration: none;
+} */

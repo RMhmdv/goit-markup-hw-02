@@ -1,0 +1,18 @@
+body {
+/* Основной цвет */
+/* Вторичный цвет */
+/* Цвет актив */
+}
+
+.link {
+    color: black;
+    font-size: 30px;
+}
+.link:hover,
+.link:focus {
+    color: rgb(255, 0, 0);
+    font-style: italic;
+}
+.link:active {
+    color: teal;
+}

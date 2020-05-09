@@ -8,19 +8,21 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color:#2196F3;
+    --primary-bg-color:#FFFFFF; 
+    --second-bg-color:#E5E5E5;
 }
-
 
   body {
     
     color: var(--primary-text-color);
-    background-color: #FFFFFF;
+    background-color: var(--primary-bg-color);
 
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
 }
+
 ul {
     list-style: none;
 }
@@ -55,17 +57,31 @@ a {
     color: var(--title-text-color); 
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link:active {
     color: var(--accent-color);
 }
-.site-nav .link:active {
-    color: teal;
+.contact-links .mail,
+.contact-links .tel {
+    color: var(--primary-text-color);
 }
+.contact-links .mail:hover,
+.contact-links .mail:focus,
+.contact-links .mail:active {
+    color: var(--accent-color);
+}
+
+.contact-links .tel:hover,
+.contact-links .tel:focus,
+.contact-links .tel:active {
+    color: var(--accent-color);
+}
+
 
 /* Hero */
 
 .hero {
-    background-color: #E5E5E5;
+    background-color: var(--second-bg-color);
 }
 .hero-title {
     color:  #FFFFFF;
@@ -115,6 +131,13 @@ a {
     font-style: normal;
     font-size: 16px;
     text-align: center;
+}
+
+/* Button */
+
+.button {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
 }
 /* Footer */
 

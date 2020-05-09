@@ -4,11 +4,16 @@
     box-sizing: border-box;
   } */
 
-  body {
-/* Цвет основного текста color: #212121; */
-/* Цвет вторичного текста color: #757575;*/
+/* Цвет основного текста color: #757575; */
+/* Цвет вторичного текста color: #212121*/
 /* Цвет акцент color: #2196F3;*/
 /* цвет белый color: #FFFFFF;*/
+/* вторичный background-color: #E5E5E5; */
+
+
+  body {
+    background-color: #FFFFFF;
+    color: #757575;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -23,11 +28,11 @@ a {
 
 /* Header */
 .page-header {
-    color: #212121;
 }
 .logo {
     color: #2196F3;
     text-decoration: none;
+
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -48,8 +53,7 @@ a {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: rgb(255, 0, 0);
-    font-style: italic;
+    color: #2196F3;
 }
 .site-nav .link:active {
     color: teal;

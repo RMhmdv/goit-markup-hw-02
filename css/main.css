@@ -1,19 +1,21 @@
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  } */
-
 /* Цвет основного текста color: #757575; */
 /* Цвет вторичного текста color: #212121*/
 /* Цвет акцент color: #2196F3;*/
 /* цвет белый color: #FFFFFF;*/
 /* вторичный background-color: #E5E5E5; */
 
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color:#2196F3;
+}
+
 
   body {
+    
+    color: var(--primary-text-color);
     background-color: #FFFFFF;
-    color: #757575;
+
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -27,10 +29,11 @@ a {
 }
 
 /* Header */
+
 .page-header {
 }
 .logo {
-    color: #2196F3;
+    color: var(--accent-color);
     text-decoration: none;
 
     font-family: Raleway;
@@ -40,7 +43,7 @@ a {
     line-height: 31px;
 }
 .logo-top {
-    color: #212121;
+    color: var(--title-text-color); 
 }
 
 /* Site-nav */
@@ -49,16 +52,72 @@ a {
     /* color: #212121; */
 }
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color); 
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .site-nav .link:active {
     color: teal;
 }
+
+/* Hero */
+
+.hero {
+    background-color: #E5E5E5;
+}
+.hero-title {
+    color:  #FFFFFF;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 44px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero-link {
+    color:  #FFFFFF;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+
+}
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+.title {
+    color: var(--title-text-color);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.box:hover {
+    background-color: var(--accent-color);
+
+}
+/* Team */
+.team-title {
+    color: var(--primary-text-color);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+}
 /* Footer */
+
 .page-footer {
     color: #FFFFFF;
     background: #2F303A;    

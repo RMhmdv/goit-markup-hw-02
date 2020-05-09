@@ -1,7 +1,7 @@
 /* Цвет основного текста color: #757575; */
-/* Цвет вторичного текста color: #212121*/
-/* Цвет акцент color: #2196F3;*/
-/* цвет белый color: #FFFFFF;*/
+/* Цвет вторичного текста color: #212121; */
+/* Цвет акцент color: #2196F3; */
+/* цвет белый color: #FFFFFF; */
 /* вторичный background-color: #E5E5E5; */
 
 :root {
@@ -9,7 +9,9 @@
     --title-text-color: #212121;
     --accent-color:#2196F3;
     --primary-bg-color:#FFFFFF; 
-    --second-bg-color:#E5E5E5;
+    --secondary-bg-color:#E5E5E5;
+    --primary-footer-color:#FFFFFF;
+    --footer-bg-color:#2F303A;
 }
 
   body {
@@ -81,7 +83,7 @@ a {
 /* Hero */
 
 .hero {
-    background-color: var(--second-bg-color);
+    background-color: var(--secondary-bg-color);
 }
 .hero-title {
     color:  #FFFFFF;
@@ -92,15 +94,18 @@ a {
     text-align: center;
     text-transform: uppercase;
 }
-.hero-link {
-    color:  #FFFFFF;
+/* Button */
+
+.button {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+    display: inline-block;
 
     font-family: Roboto;
     font-style: normal;
     font-size: 16px;
     align-items: center;
     text-align: center;
-
 }
 
 /* Section */
@@ -133,21 +138,19 @@ a {
     text-align: center;
 }
 
-/* Button */
 
-.button {
-    color: var(--primary-bg-color);
-    background-color: var(--accent-color);
-}
 /* Footer */
 
 .page-footer {
-    color: #FFFFFF;
-    background: #2F303A;    
+    color: var(--primary-footer-color);
+    background: var(--footer-bg-color);    
 }
 .logo-bottom {
     color: #FFFFFF;
 }
-/* .address {
+.address {
     text-decoration: none;
-} */
+}
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+}

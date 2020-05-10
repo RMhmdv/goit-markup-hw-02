@@ -23,6 +23,8 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.2;
+
 }
 
 ul {
@@ -43,7 +45,7 @@ a {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
 }
 .logo-top {
     color: var(--title-text-color); 
@@ -96,6 +98,8 @@ a {
     font-family: Roboto;
     font-style: normal;
     font-size: 44px;
+    line-height: 1.2;
+
     text-align: center;
     text-transform: uppercase;
 }
@@ -109,6 +113,8 @@ a {
     font-family: Roboto;
     font-style: normal;
     font-size: 16px;
+    line-height: 1.2;
+
     align-items: center;
     text-align: center;
 }
@@ -127,6 +133,8 @@ a {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
+    line-height: 1.2;
+
     text-transform: uppercase;
 }
 .box:hover {
@@ -140,6 +148,8 @@ a {
     font-family: Roboto;
     font-style: normal;
     font-size: 16px;
+    line-height: 1.2;
+
     text-align: center;
 }
 .social-link:hover,
@@ -157,9 +167,10 @@ a {
 .address {
     text-decoration: none;
     font-family: Roboto;
-    font-style: normal;
+    font-family: inherit;
     font-weight: normal;
     font-size: 14px;
+    line-height: 1.2;
 }
 .address-link {
     color: rgba(255, 255, 255, 0.6);
@@ -168,6 +179,7 @@ a {
     font-family: Roboto;
     font-style: Bold;
     font-size: 14px;
+    line-height: 1.2;
     text-align: left;
 }
 .copyright {
@@ -175,7 +187,7 @@ a {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 24px;
+    line-height: 1.2;
 
     text-align: center;
     letter-spacing: 0.03em;

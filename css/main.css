@@ -19,7 +19,7 @@
     color: var(--primary-text-color);
     background-color: var(--white-color);
 
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -40,7 +40,7 @@ a {
     color: var(--accent-color);
     text-decoration: none;
 
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -94,7 +94,7 @@ a {
 .hero-title {
     color:  var(--white-color);
 
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-size: 44px;
     line-height: 1.2;
@@ -109,7 +109,7 @@ a {
     background-color: var(--accent-color);
     display: inline-block;
 
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 1.2;
@@ -128,7 +128,7 @@ a {
 .title {
     color: var(--title-text-color);
 
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -165,7 +165,7 @@ a {
 }
 .address {
     text-decoration: none;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -175,14 +175,14 @@ a {
     color: rgba(255, 255, 255, 0.6);
 }
 .join {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: Bold;
     font-size: 14px;
     line-height: 1.2;
     text-align: left;
 }
 .copyright {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -207,9 +207,11 @@ a {
 }
 .title {
     text-transform: none;
-    font-family: Roboto;
+
+    font-family: Roboto, sans-serif;
     font-style: Regular;
     font-size: 18px;
+    line-height: 1.2;
 }
 .team-title {
     text-align: Left;

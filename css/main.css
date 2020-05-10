@@ -24,7 +24,6 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
-
 }
 
 ul {
@@ -167,7 +166,7 @@ a {
 .address {
     text-decoration: none;
     font-family: Roboto;
-    font-family: inherit;
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.2;

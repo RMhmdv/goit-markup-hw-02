@@ -44,14 +44,11 @@ a {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.18;
     letter-spacing: 0.03em;
 }
 .logo-top {
     color: var(--title-text-color); 
-}
-.logo-bottom {
-    color: var(--white-color);
 }
 
 /* Site-nav */
@@ -122,6 +119,14 @@ a {
 
 .section-title {
     color: var(--title-text-color);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Features */
@@ -142,14 +147,20 @@ a {
 }
 /* Team */
 .team-title {
-    color: var(--primary-text-color);
+    color: var(--title-text-color);
 
     font-family: Roboto;
     font-style: normal;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
 
     text-align: center;
+}
+.team-title.position {
+    color: var(--primary-text-color);
+    font-weight: normal;
 }
 .social-link:hover,
 .social-link:focus {
@@ -163,6 +174,14 @@ a {
     color: var(--white-color);
     background: var(--footer-bg-color);    
 }
+.logo.footer {
+    font-size: 22px;
+    line-height: 1.18;
+}
+.logo-bottom {
+    color: var(--white-color);
+}
+
 .address {
     text-decoration: none;
     font-family: Roboto;
@@ -176,10 +195,13 @@ a {
 }
 .join {
     font-family: Roboto;
-    font-style: Bold;
+    font-style: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 1.2;
+
     text-align: left;
+    text-transform: uppercase;
 }
 .copyright {
     font-family: Roboto;
@@ -190,7 +212,7 @@ a {
 
     text-align: center;
     letter-spacing: 0.03em;
-
+   
     color: rgba(255, 255, 255, 0.4);
 }
 
@@ -210,15 +232,16 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.title {
+.title.project {
     text-transform: none;
 
-    font-family: Roboto;
-    font-style: Regular;
     font-size: 18px;
     line-height: 1.2;
 }
-.team-title {
+.team-title.project {
+    font-size: 16px;
+    line-height: 1.88;
+
     text-align: Left;
 }
 .p-txt {

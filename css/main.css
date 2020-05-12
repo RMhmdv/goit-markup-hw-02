@@ -240,6 +240,8 @@ a {
     line-height: 1.2;
 }
 .team-title.project {
+    color: var(--primary-text-color);
+
     font-size: 16px;
     line-height: 1.88;
 
@@ -250,7 +252,7 @@ a {
     background-color: var(--accent-color);
 
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.55;
 
     letter-spacing: 0.03em;
 }
